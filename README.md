@@ -22,4 +22,5 @@ Si desea marcar una separación más visual de contenidos podemos utilizarlos in
 
 EJEMPLO
 ---
-*Esto es similar a un tag de <HR> en HTML.
+*Esto es similar a un tag de < HR > en HTML.
+
