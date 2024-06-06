@@ -149,6 +149,7 @@ Pero si deseamos poner sólo las ligas directas o un correo electrónico podemos
 **EJEMPLO**
 
 Documentación creada por: ***Zacatenco Pedroza Zyanya Ahuachtli*** 
+
 <230852@utxicotepec.edu.mx> 
 
 
