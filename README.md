@@ -128,11 +128,18 @@ Para crear tu primer repositorio en GitHub deberás:
 1. Contar con cuenta de GitHub
 2. Dar click en el botón: *Nuevo Repositorio*
 3. Asignarle un nombre a tu repositorio, por ejemplo: *Práctica03-3B*
-4. Asignarle un nivel de privacidad entre
+4. Asignarle un nivel de privacidad entre 
    - **Público:** Si quieres que esté disponible para todos los usuarios.
    - **Privado:** Deseas que solo a quien tu decidas puedan ver y colaborar con tu proyecto.
 5. Definir si incluye un archivo de descripción llamado: *README.md*
 6. Definir si habrá exclusiones de archivo a través de archivo: *.gitignore*
 7. Guardar los cambios.
 
-   
+
+### 7. Ligas (Hipervínculos)
+
+Las ligas son utilizadas para vincular elementos o referencia del proyecto dentro del mismo repositorio o fuera de el. Y se maquetan utilizando los corchetes \[ \]
+
+**EJEMPLO**
+
+Mi buscador favorito es: [Google]
