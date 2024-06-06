@@ -82,3 +82,17 @@ Algunas veces necesitaremos subrayar texto dentro de la documentación, para ell
 
 Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <ins>Texto subrayado</ins> Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto 
 
+
+# IntegradoraPractica03
+Continuamos con los comandos básicos de Git y GitHub para el maquetado de la documentación.
+
+### 5. Cuadros para Código o Reseñas  (BLOCKQUOTES)
+
+Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialización o mostrar secciones de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (\>).
+
+**EJEMPLO**
+Para listar las carpetas y archivos desde una terminal de sistema operativo Windows debemos ingresar el comando: 
+
+> C:/dir
+
+Después oprimimos la tecla "Enter". 
