@@ -96,3 +96,23 @@ Para listar las carpetas y archivos desde una terminal de sistema operativo Wind
 > C:/dir
 
 Después oprimimos la tecla "Enter". 
+
+También podemos ingresar textos multilínea.
+
+***EJEMPLO***
+
+>Aquí se agrega un conjunto de instrucciones
+>para explicar al usuario, cómo instalar el
+>software que hemos diseñado.
+
+Y si deseamos incluir viñetas para enlistar pasos podemos utilizar el carácter - dentro del texto a documentar.
+
+**Pasos para Instalar la Base de Datos**
+
+>- Descargar MySQL Server del sitio oficial.
+>- Instalar el Sistema Gestor de Base de Datos, definiendo el puerto y contraseña para el usuario ***root***.
+>- Descargamos el archivo de respaldo de la Base de Datos (.sql)
+>- Restauramos la Base de Datos usando el comando *mysql*.
+
+>> C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
+
