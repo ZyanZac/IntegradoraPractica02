@@ -142,4 +142,4 @@ Las ligas son utilizadas para vincular elementos o referencia del proyecto dentr
 
 **EJEMPLO**
 
-Mi buscador favorito es: [Google].(https://www.google.com).
+Mi buscador favorito es: [Google](https://www.google.com).
