@@ -143,3 +143,11 @@ Las ligas son utilizadas para vincular elementos o referencia del proyecto dentr
 **EJEMPLO**
 
 Mi buscador favorito es: [Google](https://www.google.com).
+
+Pero si deseamos poner sólo las ligas directas o un correo electrónico podemos utilizar los símbolos \< \>
+
+**EJEMPLO**
+
+Documentación creada por: ***Zacatenco Pedroza Zyanya Ahuachtli*** <230852@utxicotepec.edu.mx> <http://www.uxticotepec.edu.mx>
+
+
