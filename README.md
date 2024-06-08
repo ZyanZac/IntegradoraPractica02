@@ -165,5 +165,5 @@ https://raw.githubusercontent.com/usuario/repositorio/rama/ruta-al-asset/
 
 **EJEMPLO**
 
-https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/master/assets/images.jpg
+https://raw.githubusercontent.comZ/yanZac/IntegradoraPractica02/main/assets/images.jpg
 
