@@ -156,3 +156,10 @@ Documentación creada por: ***Zacatenco Pedroza Zyanya Ahuachtli***
 <http://www.uxticotepec.edu.mx>
 
 
+
+### 8. Imágenes
+
+Se puede añadir imágenes
+
+https://raw.githubusercontent.com/usuario/repositorio/rama/ruta/al/asset
+
