@@ -159,11 +159,12 @@ Documentación creada por: ***Zacatenco Pedroza Zyanya Ahuachtli***
 
 ### 8. Imágenes
 
-Se puede añadir imágenes al ingresar en el repositorio, por medio de la opción **Add file**. Una vez hecho esto, para referenciar la imagen, se deberá usar la siguiente ruta, y al final, agregar el nombre de la imagen:
+Se puede añadir imágenes al ingresar en el repositorio, por medio de la opción **Add file**. Una vez hecho esto, para referenciar la imagen, se deberá usar la siguiente ruta y código:
 
-https://raw.githubusercontent.com/usuario/repositorio/rama/ruta-al-asset/
+<\img src=https://\raw.githubusercontent.com/usuario/repositorio/rama/ruta-al-asset/>
+
 
 **EJEMPLO**
 
-https://raw.githubusercontent.comZ/yanZac/IntegradoraPractica02/main/assets/images.jpg
 
+<img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/images.jpg>
