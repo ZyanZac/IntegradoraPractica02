@@ -167,4 +167,4 @@ Se puede añadir imágenes al ingresar en el repositorio, por medio de la opció
 **EJEMPLO**
 
 
-<img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/images.jpg>
+<img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/LOGO-TECNOLOGIAS-DE-LA-INFORMACION.png>
