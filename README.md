@@ -144,7 +144,7 @@ Las ligas son utilizadas para vincular elementos o referencia del proyecto dentr
 
 Mi buscador favorito es: [Google](https://www.google.com).
 
-Pero si deseamos poner sólo las ligas directas o un correo electrónico podemos utilizar los símbolos \< \>
+Pero si deseamos poner sólo las ligas directas o un correo electrónico podemos utilizar los símbolos c< \>
 
 **EJEMPLO**
 
@@ -156,8 +156,79 @@ Documentación creada por: ***Zacatenco Pedroza Zyanya Ahuachtli***
 <http://www.uxticotepec.edu.mx>
 
 
+### 8. Tablas (TABLES)
 
-### 8. Imágenes
+Si la documentación lo requiere, podemos presentar información en formato de tablas con filas y columnas, para maquetarlas podemos utilizar el carácter \| para delifitar las columnas \- para delimitar las filas
+
+**EJEMPLO**
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4 |
+|--------------|--------------|--------------|--------------|
+|Fila 1 Celda 1|Fila 1 Celda 2|Fila 1 Celda 3|Fila 1 Celda 4|
+|Fila 2 Celda 1|Fila 2 Celda 2|Fila 2 Celda 3|Fila 2 Celda 4|
+|Fila 3 Celda 1|Fila 3 Celda 2|Fila 3 Celda 3|Fila 3 Celda 4|
+
+En caso de necesitar la fusión de celdas en columnas usaremos la propiedad *colspan* del tag \<td> y en el caso de necesitar la fusión de filas utilizaremos la propiedad *rowspan*.
+
+**EJEMPLO**
+
+| Encabezado 1 | Encabezado 2 | Encabezado 3 | Encabezado 4 |
+|--------------|--------------|--------------|--------------|
+|Fila 1 Celda 1|Fila 1 Celda 2|Fila 1 Celda 3|Fila 1 Celda 4|
+|Fila 2 Celda 1<td colspan=2>Fila 2 Celda 2|Fila 2 Celda 3|
+|Fila 3 Celda 1|Fila 3 Celda 2|Fila 3 Celda 3|Fila 3 Celda 4|
+|              |Fila 4 Celda 2|Fila 4 Celda 3|Fila 4 Celda 4|
+|              |Fila 5 Celda 2|Fila 5 Celda 3|Fila 5 Celda 4|
+|Fila 6 Celda 1|Fila 6 Celda 2|Fila 6 Celda 3|Fila 6 Celda 4|
+
+Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusión de filas, debemos utilizar el estándar HTML, usando los tags: \<th> para los encabezados, \<tr> para las filas, y \<td> para las celdas, y en ellos utilizar la propiedad de *colspan* y *rowspan*
+
+**EJEMPLO**
+
+<table>
+   <tr>
+      <th>Encabezado 1</th>
+      <th>Encabezado 2</th>
+      <th>Encabezado 3</th>
+      <th>Encabezado 4</th>
+   </tr>
+   <tr>
+      <td>Fila 1 Celda 1</td>
+      <td>Fila 1 Celda 2</td>
+      <td>Fila 1 Celda 3</td>
+      <td>Fila 1 Celda 4</td>
+   </tr>
+   <tr>
+      <td>Fila 2 Celda 1</td>
+      <td colspan=3 align="center">Fila 2 Celda 2</td>
+   </tr>
+   <tr>
+      <td rowspan=3>Fila 3 Celda 1</td>
+      <td>Fila 3 Celda 2</td>
+      <td>Fila 3 Celda 3</td>
+      <td>Fila 3 Celda 4</td>
+   </tr>
+   <tr>
+      <td>Fila 4 Celda 2</td>
+      <td>Fila 4 Celda 3</td>
+      <td>Fila 4 Celda 4</td>
+   </tr>
+   <tr>
+      <td>Fila 5 Celda 2</td>
+      <td>Fila 5 Celda 3</td>
+      <td>Fila 5 Celda 4</td>
+   </tr>
+   <tr>
+      <td>Fila 6 Celda 1</td>
+      <td>Fila 6 Celda 2</td>
+      <td>Fila 6 Celda 3</td>
+      <td>Fila 6 Celda 4</td>
+   </tr>
+</table>
+
+
+
+### 9. Imágenes
 
 Se puede añadir imágenes al ingresar en el repositorio, por medio de la opción **Add file**. Una vez hecho esto, para referenciar la imagen, se deberá usar la siguiente ruta y código:
 
@@ -168,3 +239,12 @@ Se puede añadir imágenes al ingresar en el repositorio, por medio de la opció
 
 
 <img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/LOGO-TECNOLOGIAS-DE-LA-INFORMACION.png>
+
+
+Si la documentación requiere de incorporar imágenes, esquemas, modelos, fotografías, o cualquier representación gráfica, utilizaremos la estructura de las ligas, maquetando el nombre de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando paréntesis.
+
+!\[imagen](\ruta)
+
+**EJEMPLO**
+
+![Gato](https://static.eldiario.es/clip/ab74aa95-3656-424c-8ca1-dce590aabb97_16-9-discover-aspect-ratio_default_0.jpg)
