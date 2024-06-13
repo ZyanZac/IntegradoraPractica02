@@ -238,7 +238,7 @@ Se puede añadir imágenes al ingresar en el repositorio, por medio de la opció
 **EJEMPLO**
 
 
-<img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/LOGO-TECNOLOGIAS-DE-LA-INFORMACION.png>
+<img src=https://raw.githubusercontent.com/ZyanZac/IntegradoraPractica02/main/images.jpg>
 
 
 Si la documentación requiere de incorporar imágenes, esquemas, modelos, fotografías, o cualquier representación gráfica, utilizaremos la estructura de las ligas, maquetando el nombre de la imagen entre corchetes con un signo de admiración de cierre y la liga de referencia a la imagen usando paréntesis.
